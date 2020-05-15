@@ -1,11 +1,10 @@
-def primary():
-   print("Keep it logically awesome.")
+#def primary():
+  # print("Keep it logically awesome.")
+f = open("/storage/emulated/0/python programs/python-random-quote-master/python-random-quote-master/quotes.txt")
+quotes = f.readlines()
+f.close()
 
-   f = open("/storage/emulated/0/python programs/python-random-quote-master/python-random-quote-master/quotes.txt")
-   quotes = f.readlines()
-   f.close()
+print(quotes[2])
 
-   print(quotes)
-
-if __name__== "__main__":
-  primary()
+"""if __name__== "__main__":
+  primary()"""
